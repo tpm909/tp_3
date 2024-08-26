@@ -81,7 +81,7 @@ public class ventana extends javax.swing.JFrame {
         if(gmail.getText().equalsIgnoreCase("alumno")&&pass.getText().equalsIgnoreCase("12345678")){
             JOptionPane.showMessageDialog(this, "cosa");
         }else{
-            
+            JOptionPane.showMessageDialog(this, "jose");
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
