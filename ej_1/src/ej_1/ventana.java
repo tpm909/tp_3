@@ -79,9 +79,9 @@ public class ventana extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         if(gmail.getText().equalsIgnoreCase("alumno")&&pass.getText().equalsIgnoreCase("12345678")){
-            JOptionPane.showMessageDialog(this, "cosa");
+            JOptionPane.showMessageDialog(this, "bienvenido alumno");
         }else{
-            JOptionPane.showMessageDialog(this, "jose");
+            JOptionPane.showMessageDialog(this, "Usuarioy/o contraseña incorrectos");
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
