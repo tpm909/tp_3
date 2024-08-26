@@ -36,8 +36,6 @@ public class ventana extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        pass.setText("jPasswordField1");
-
         jScrollPane1.setViewportView(gmail);
 
         jButton1.setText("Registrar");
@@ -78,7 +76,7 @@ public class ventana extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        if(gmail.getText().equalsIgnoreCase("alumno")&&pass.getText().equalsIgnoreCase("12345678")){
+        if(gmail.getText().equalsIgnoreCase("alumno@sanluis.edu.ar")&&pass.getText().equalsIgnoreCase("12345678")){
             JOptionPane.showMessageDialog(this, "bienvenido alumno");
         }else{
             JOptionPane.showMessageDialog(this, "Usuarioy/o contraseña incorrectos");
